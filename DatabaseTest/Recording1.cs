@@ -79,8 +79,8 @@ namespace DatabaseTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\jbranham\\Desktop\\Training Programs\\RxDemoApp.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("C:\\Users\\jbranham\\Desktop\\Training Programs\\RxDemoApp.exe", "", "C:\\Users\\jbranham\\Desktop\\Training Programs", false);
+            Report.Log(ReportLevel.Info, "Application", "Run application '%userprofile%\\Desktop\\Training Programs\\RxDemoApp.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("%userprofile%\\Desktop\\Training Programs\\RxDemoApp.exe", "", "C:\\Users\\jbranham\\Desktop\\Training Programs", false);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase123' at .55;.55.", repo.RxMainFrame.TestDatabase123Info, new RecordItemIndex(1));

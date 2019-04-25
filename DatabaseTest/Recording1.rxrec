@@ -35,7 +35,7 @@ rxversion="9.0">
 			<bindings>
 			</bindings>
 			<filename>
-				C:\Users\jbranham\Desktop\Training Programs\RxDemoApp.exe
+				%userprofile%\Desktop\Training Programs\RxDemoApp.exe
 			</filename>
 			<workingdir>
 				C:\Users\jbranham\Desktop\Training Programs
