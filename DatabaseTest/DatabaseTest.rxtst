@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc
 rxversion="9.0">
 	<testsuiteentryhierarchy>
@@ -11,7 +11,7 @@ rxversion="9.0">
 			</testmodule>
 			<testcase
 			id="94dc69b5-80c3-4e45-b037-b7f444e90dcf"
-			name="TestCase123">
+			name="123TestCase">
 			</testcase>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -48,7 +48,7 @@ rxversion="9.0">
 				name="DatabaseTest">
 					<testcase
 					id="94dc69b5-80c3-4e45-b037-b7f444e90dcf"
-					name="TestCase123">
+					name="123TestCase">
 						<testmodule
 						id="0bb1d6be-5126-4479-9aaa-79c64292f505"
 						name="Recording1">
