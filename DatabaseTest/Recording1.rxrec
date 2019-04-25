@@ -10188,6 +10188,122 @@ KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//
 2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc=".333;.275"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2d098af4-8704-4d1f-9ccc-9a8734a2e9b0"
+		sx="16"
+		sy="1051"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ff1f624d-d4d3-46fc-a6f9-ae87e50c9c5b"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="0,1040,48,40"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Start
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Start
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						HotTracked, Focusable
+					</attribute>
+				</element>
+				<path>
+					/menubar[@class='Shell_TrayWnd']/?/?/button[@accessiblename='Start']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2c8bb343-311e-4e98-bbd8-d17b2a12c6cb">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACaAJkDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDmqKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAoq3pUaS6nbxyKGRnwQe9ddJpemRgFrVOTgAAkn8BQ
+Bw1FdyulaY/3baPOM45z+VO/sbTv+fSOgDhKK7oaRprfdtYjzjiuY8QQRW2pmOBAiBBwKAMyiiig
+AooooAKKKKACiiigAooooAKKKKACiiigC9ov/IXtf98V2tyF2qW8wEHKsikkH6c1x0Oy3mWWJSro
+cqeuKvHWrwf8tj/3wv8AhU83kb+xX8y/r5G0vmCVpXjkMjQ8AFgCefy7URLKwClpSvm9fmX5dvuc
+4zWJ/bl5/wA9W/74Wj+3Lz/nq3/fC0c3kHsV/Mvx/wAjobJPLEi4cHefvEnjJxjNct4n/wCQw3+4
+tWP7cvP+erf98LVO5mF5MZbgF3Ixnp/Kjm8g9iv5l/XyMyirstoDjygF9ck1F9jk/vL+dNO6uZzg
+4S5WV6KsfY5P7y/nR9jk/vL+dMgr0VY+xyf3l/Oj7HJ/eX86AK9FWPscn95fzo+xyf3l/OgCvRVj
+7HJ/eX86Pscn95fzoAr0VY+xyf3l/Oj7HJ/eX86AK9FWPscn95fzo+xyf3l/OgCxRRRQAUVoS6X5
+Nhb3cSl4miRpVycpwMsPb19P5OWGHAKopB6HrQBm0UUUATUoBY4AJPoKStO32WVh9pZQ0rnCA/zq
+YbG+I/ifd+RT+x3G3d5RxUJBU4IIPoatf2neb93ntn04x+VWLjZe2H2lVCyocOB0+tUYGZRRUwij
+Me8O/XbjZ3/OgCGil2sSQFPHXjpStG6ruZGA9SKAG0U4o4UMVYKehxxSpGXRiuSQRwB1oAZRTgjl
+toVi3pjmgRuWICMSOoxQA2inbHK7trbR3xxTaAIaKKKAOltNRiitbW1QGS4NspCDpnbkKT2JrJiW
+KVmmSBI4pMMqBt209+wx9KoL+7ZWT5WVgykDoRTvMk3MxdtzEsSOMknPagBtFFFAE1aZQ3ekoIuZ
+ITyo6kVmVJBPJbvvjbBqYbG+I/ifd+RHjnFaYQ2mkuJeJJjwp6gU3+15M7vKj3/3sDP8qpTzyXD7
+5GyaowI6l3D7LjPO/OPwqKgcHNAFpmGYyOsrBj/n65pH+QzF3DBjgAHJPP6VAZGZwxPI6cdKaSSS
+T1NAFqZ/9YyCPaw67jnH0z/SoUbEEgzgkjj1qOigC2XRgwGxmKr95sA8c85pjyEpICVB+UYU5qvR
+QBaZxgMgjwExyxyOORjNVaKKAIMP/wA82/Mf40Yf/nm35j/Gqfmyf89G/OjzZP8Ano351nzM7fY0
+/P7/APgFzD/882/Mf40Yf/nm35j/ABqn5sn/AD0b86PNk/56N+dHMw9jT8/v/wCAXMP/AM82/Mf4
+0Yf/AJ5t+Y/xqn5sn/PRvzo82T/no350czD2NPz+/wD4BflmWILuDc+lR/bI/wC635VTZ2b7zE49
+TTaqOxhXd6j/AK6F77ZH/db8qPtkf91vyqjRVGJe+2R/3W/Kj7ZH/db8qo0UAXvtkf8Adb8qPtkf
+91vyqjRQBe+2R/3W/Kj7ZH/db8qo0UAXvtkf91vyo+2R/wB1vyqjRQBe+2R/3W/Kj7ZH/db8qo0U
+Af/Z
+			</helperscreenshot>
+		</mouseitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Add a message
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
 	</recorditems>
 	<repository
 	id="88a57155-4071-42c6-b740-9ff996fbb1c6"

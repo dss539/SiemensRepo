@@ -143,6 +143,13 @@ namespace DatabaseTest
             repo.RxMainFrame.RxButtonExit.Click(".747;.5");
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.Start' at .333;.275.", repo.Explorer.StartInfo, new RecordItemIndex(17));
+            repo.Explorer.Start.Click(".333;.275");
+            Delay.Milliseconds(200);
+            
+            // Add a message
+            Report.Log(ReportLevel.Info, "Section", "Add a message", new RecordItemIndex(18));
+            
         }
 
 #region Image Feature Data
