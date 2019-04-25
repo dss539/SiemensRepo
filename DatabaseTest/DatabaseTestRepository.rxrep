@@ -26,11 +26,10 @@ rxversion="9.0">
 			addcaps="tabpage,accessible"
 			capname="tabpage"
 			id="e8ea9df6-e965-46a1-8c87-b9861b308f61"
-			name="TestDatabase"
+			name="TestDatabase123"
 			refimgid="6f4c44d5-de62-4e43-85b1-971841e94e1f"
-			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@accessiblename='Test database']"
 			searchtimeout="30000ms">
-				/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='Test database']
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='Test database']/../tabpage[@accessiblename='Test database']
 			</item>
 			<item
 			addcaps="button,control,nativewindow"

@@ -108,7 +108,7 @@ namespace DatabaseTest
         public partial class RxMainFrameAppFolder : RepoGenBaseFolder
         {
             DatabaseTestRepositoryFolders.RxTabStandardFolder _rxtabstandard;
-            RepoItemInfo _testdatabaseInfo;
+            RepoItemInfo _testdatabase123Info;
             RepoItemInfo _btnaddpersonInfo;
             RepoItemInfo _lblnumberofpersonsnumberInfo;
             RepoItemInfo _rxbuttonexitInfo;
@@ -120,7 +120,7 @@ namespace DatabaseTest
                     base("RxMainFrame", "/form[@controlname='RxMainFrame']", parentFolder, 30000, null, true, "592ef5f6-d718-4620-aaab-c6eb8d1bdd1c", "")
             {
                 _rxtabstandard = new DatabaseTestRepositoryFolders.RxTabStandardFolder(this);
-                _testdatabaseInfo = new RepoItemInfo(this, "TestDatabase", "?/?/tabpage[@accessiblename='Test database']", 30000, null, "e8ea9df6-e965-46a1-8c87-b9861b308f61");
+                _testdatabase123Info = new RepoItemInfo(this, "TestDatabase123", "?/?/tabpage[@accessiblename='Test database']/../tabpage[@accessiblename='Test database']", 30000, null, "e8ea9df6-e965-46a1-8c87-b9861b308f61");
                 _btnaddpersonInfo = new RepoItemInfo(this, "BtnAddPerson", "?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']", 30000, null, "ba75290b-876e-4dc4-a341-f4d3b6be3fd0");
                 _lblnumberofpersonsnumberInfo = new RepoItemInfo(this, "LblNumberOfPersonsNumber", "?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='lblNumberOfPersonsNumber']", 30000, null, "c36540d9-7a8e-4da9-b64a-779986b6fd8d");
                 _rxbuttonexitInfo = new RepoItemInfo(this, "RxButtonExit", "button[@controlname='RxButtonExit']", 30000, null, "c0351326-af93-464a-b593-9e8743a0cc64");
@@ -151,26 +151,26 @@ namespace DatabaseTest
             }
 
             /// <summary>
-            /// The TestDatabase item.
+            /// The TestDatabase123 item.
             /// </summary>
             [RepositoryItem("e8ea9df6-e965-46a1-8c87-b9861b308f61")]
-            public virtual Ranorex.TabPage TestDatabase
+            public virtual Ranorex.TabPage TestDatabase123
             {
                 get
                 {
-                    return _testdatabaseInfo.CreateAdapter<Ranorex.TabPage>(true);
+                    return _testdatabase123Info.CreateAdapter<Ranorex.TabPage>(true);
                 }
             }
 
             /// <summary>
-            /// The TestDatabase item info.
+            /// The TestDatabase123 item info.
             /// </summary>
             [RepositoryItemInfo("e8ea9df6-e965-46a1-8c87-b9861b308f61")]
-            public virtual RepoItemInfo TestDatabaseInfo
+            public virtual RepoItemInfo TestDatabase123Info
             {
                 get
                 {
-                    return _testdatabaseInfo;
+                    return _testdatabase123Info;
                 }
             }
 

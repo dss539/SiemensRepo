@@ -83,8 +83,8 @@ namespace DatabaseTest
             Host.Local.RunApplication("C:\\Users\\jbranham\\Desktop\\Training Programs\\RxDemoApp.exe", "", "C:\\Users\\jbranham\\Desktop\\Training Programs", false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase' at .55;.55.", repo.RxMainFrame.TestDatabaseInfo, new RecordItemIndex(1));
-            repo.RxMainFrame.TestDatabase.Click(".55;.55");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase123' at .55;.55.", repo.RxMainFrame.TestDatabase123Info, new RecordItemIndex(1));
+            repo.RxMainFrame.TestDatabase123.Click(".55;.55");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.FirstName' at .225;.316.", repo.RxMainFrame.RxTabStandard.FirstNameInfo, new RecordItemIndex(2));
